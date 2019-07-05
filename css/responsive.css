@@ -38,12 +38,30 @@
 .header-2-menu.sticky {
 	padding-top: 0;
 }
+
+.header-2-menu .header-right {
+	margin-top: -24px;
+}
+
+.main-menu ul {
+    padding-left: 46px;
+}
+
 .slider-height {
-	min-height: 720px;
+	min-height: 450px;
 }
 .about-wrapper {
 	margin-left: 0;
 }
+
+.res-pt-15 {
+    padding-top: 15px;
+}
+
+.res-mb-75 {
+    margin-bottom: 0px;
+}
+
 .contact-icon {
 	margin-right: 15px;
 }

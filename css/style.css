@@ -443,7 +443,7 @@ label {
 }
 .header-right ul li:first-child{margin-left:0;}
 .header-right ul li a {
-	display: inline-block;
+	display: inline-flex;
 	text-align: center;
 	font-size: 16px;
 	color: #374d5f;
@@ -534,7 +534,7 @@ label {
 }
 .header-2-menu .header-right {
 	margin-right: 65px;
-	margin-top: 37px;
+	margin-top: 39px;
 }
 .header-2-menu{}
 .header-icon {
@@ -548,7 +548,7 @@ label {
 	transition: .3s;
 }
 .header-icon a:hover{color:#f29c1f;}
-.header-icon a{}
+/* .header-icon a{} */
 .header-icon a:last-child{margin-right:0;}
 
 
@@ -561,12 +561,12 @@ label {
 	background-position: center center;
 }
 .slider-height {
-	min-height: 860px;
+	min-height: 500px;
 }
 .slider-2-height {
 	min-height: 950px;
 }
-.slider-content{}
+/* .slider-content{} */
 .slider-video-icon {
 	margin-bottom: 33px;
 }
@@ -599,7 +599,8 @@ label {
 	font-weight: 300;
 }
 /* slider 2 */
-.slider-text{}
+/* .slider-text{} */
+
 .slider-text span {
 	font-size: 14px;
 	color: #5ba760;
@@ -621,7 +622,7 @@ label {
 .slider-text a.btn:hover{background: #f29c1f;color:#fff;}
 .slider-01 {
 	right: 35%;
-	bottom: -38px;
+	bottom: -142px;
 }
 .slider-02 {
 	left: 6%;
@@ -1057,7 +1058,8 @@ label {
 }
 .choose-link li:hover .choose-icon i{background:#ef8802;color: #fff;}
 
-./* 9. portfolio-area */
+/* 9. portfolio-area */
+
 .gallery-area {
 	background-size: cover;
 	background-position: center center;
@@ -1668,7 +1670,7 @@ label {
 	width: 70px;
 	line-height: 70px;
 	border-radius: 50%;
-	border: ;
+	/* border: ; */
 	border: 2px solid transparent;
 }
 .client-active .owl-nav div.owl-next {
@@ -1791,7 +1793,7 @@ label {
 /* 15. blog-area */
 .blog-area {
 	background-size: cover;
-	background-position: ;
+	/* background-position: ; */
 	background-position: center center;
 }
 .blog-wrapper{}
