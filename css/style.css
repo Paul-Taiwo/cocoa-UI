@@ -338,7 +338,14 @@ label {
 	font-size: 13px;
 }
 .heder-button a.btn:hover{background:#86ba09;color:#fff;border-color:#86ba09;}
-
+.main-menu {
+	margin-left: 40px;
+	float: right;
+}
+.main-menu::after {
+	content: "";
+	clear: both;
+}
 .menu-bar {
 	width: 20px;
 	padding-top: 22px;
@@ -534,7 +541,7 @@ label {
 }
 .header-2-menu .header-right {
 	margin-right: 65px;
-	margin-top: 39px;
+	margin-top: -24px;
 }
 .header-2-menu{}
 .header-icon {
@@ -707,7 +714,7 @@ label {
 	margin-bottom: 17px;
 }
 .section-title h1 {
-	font-size: 55px;
+	font-size: 42px;
 	font-weight: 500;
 	line-height: 1.1;
 	text-transform: uppercase;
@@ -770,7 +777,7 @@ label {
 	padding-right: 10px;
 }
 .about1-img {
-	margin-left: -85px;
+	padding: 0 0 0 90px;
 }
 .about2-img {
 	margin-left: -75px;
@@ -879,13 +886,20 @@ label {
 
 /* 6. product */
 .product-wrapper {
-	background: #f1f6fa;
-	padding: 50px 0 43px 0;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 0 0 10px 0;
 	border-radius: 10px;
+	cursor: pointer;
 	position: relative;
+	transition: .9s ease;
+}
+.product-wrapper:hover {
+	box-shadow: 3px 4px 8px #ddd;
+	transform: translateY(2%)
 }
 .product-img {
-	margin-bottom: 36px;
+	margin-bottom: 14px;
 }
 .product-img > a{}
 .product-img > a img {}
@@ -922,6 +936,10 @@ label {
 	padding: 0 2px;
 }
 .pro-price{}
+
+.pro-price h3 {
+	color: #f3b323
+}
 .pro-price span {
 	font-size: 14px;
 	color: #6e6e6e;
