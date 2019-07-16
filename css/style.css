@@ -232,6 +232,7 @@ label {
 .header-right ul li a.header-btn {
 	font-size: 14px;
 	padding: 6px 20px;
+	border-radius: 10px;
 }
 
 /* scrollUp */
@@ -346,7 +347,6 @@ label {
 }
 .heder-button a.btn:hover{background:#86ba09;color:#fff;border-color:#86ba09;}
 .main-menu {
-	margin-right: 141px;
 	float: right;
 }
 .main-menu::after {
