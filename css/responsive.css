@@ -45,7 +45,7 @@
 }
 
 .header-2-menu .header-right {
-	margin-top: -40px;
+	margin-top: -25px;
 }
 
 .main-menu ul {
@@ -363,6 +363,11 @@
 
 }
 
+@media (max-width: 991px) {
+	.h-86 {
+		height: unset;
+	}
+}
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {

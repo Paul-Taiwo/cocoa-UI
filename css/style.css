@@ -226,6 +226,13 @@ label {
 .breadcrumb > .active {
 	color: #888;
 }
+.header-right ul {
+	display: inline-flex;
+}
+.header-right ul li a.header-btn {
+	font-size: 14px;
+	padding: 6px 20px;
+}
 
 /* scrollUp */
 #scrollUp {
@@ -544,7 +551,7 @@ label {
 }
 .header-2-menu .header-right {
 	margin-right: 65px;
-	margin-top: -40px;
+	margin-top: -25px;
 }
 .header-2-menu{}
 .header-icon {
