@@ -1438,6 +1438,7 @@ label {
 	padding: 40px 32px 50px 32px;
 	transition: .3s;
 	opacity: 0;
+	transition: .8s ease;
 }
 .team-01 {
 	left: 5%;
