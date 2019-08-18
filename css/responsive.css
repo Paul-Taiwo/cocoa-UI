@@ -791,4 +791,9 @@
 	.li-btn {
 		margin-left: 1em !important;
 	}
+
+	img[src='img/about/about4.jpg'] {
+		width: 232px;
+	}
+
 }
